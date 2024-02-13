@@ -19,11 +19,12 @@ body{
 main{
     margin: 0 auto;
     width: 380px;
-    height: 600px;
-    margin-top: 200px;
+    height: 520px;
+    margin-top: 100px;
     border-radius: 10px;
     background-color: white;
     border-color: var(--Black);
+    box-shadow: 7px 7px 1px 1px black;
 }
 
 p{
@@ -34,6 +35,7 @@ p{
 
 .pub{
     color: black;
+    margin-top: 10px;
 }
 
 img{
@@ -46,18 +48,24 @@ img{
 .greg{
     display: inline-block;
     color: black;
-    font-weight: 600;
+    font-weight: 800;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 10px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 h2{
     display: flex;
     width: 100px;
-    height: 28px;
-    margin: auto;
     border-radius: 5px;
     margin-top: 20px;
     font-size: 16px;
     text-align: center;
+    vertical-align: middle;
+    justify-content: center;
     margin-left: 30px;
     background-color: var(--Yellow);
 }
@@ -70,4 +78,7 @@ h1{
 
 .foto{
     display: inline-block;
+    width: 40px;
+    padding-left: 30px;
+    padding-top: 0;
 }
