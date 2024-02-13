@@ -10,7 +10,7 @@
 
 body{
     display: flex;
-    width: 375px;
+    width: 350px;
     margin: 0 auto;
     background-color: var(--Yellow);
     font-family: 'figtree';
